@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 
+import TopCollections from '@/components/TopCollections';
 import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
 
@@ -179,6 +180,8 @@ const Index = () => {
         </a>{' '}
         on our website to support this project.
       </p>
+
+      <TopCollections />
     </Main>
   );
 };
