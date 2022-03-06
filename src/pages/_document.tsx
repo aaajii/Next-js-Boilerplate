@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, NextScript, Main } from 'next/document';
 
 import { AppConfig } from '@/utils/AppConfig';
 
@@ -6,7 +6,7 @@ import { AppConfig } from '@/utils/AppConfig';
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang={AppConfig.locale}>
+      <Html lang={AppConfig.locale} className="bg-sol-black">
         <Head />
         <body>
           <Main />

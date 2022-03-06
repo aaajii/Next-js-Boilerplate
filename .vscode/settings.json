@@ -21,5 +21,6 @@
   },
   "[postcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "cSpell.words": ["Chakra"]
 }
